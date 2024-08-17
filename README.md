@@ -117,3 +117,11 @@ npm install @reduxjs/toolkit react-redux react-router-dom react-icons react-char
         "source.fixAll.eslint": true
     }
 ```
+
+5. Add the following details in the plugin property of tailwind config
+```
+  plugins: [
+    require("daisyui"), // This adds DaisyUI to your Tailwind CSS configuration
+    require("@tailwindcss/line-clamp"), // This adds the Tailwind CSS Line Clamp plugin
+  ],
+```
